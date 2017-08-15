@@ -1,0 +1,267 @@
+.slider-for-large{
+  padding: 4% 0 4%;
+}
+.slider-main-page{
+    padding-top: 40px;
+  .slider{
+    position: relative;
+  }
+.slider::before{
+  content: "";
+  position: absolute;
+  background-image: url("../img/small-city.png");
+  opacity: 0.2;
+  right:0;
+  bottom:55px;
+  width:300px;
+  height:250px;
+  background-size: cover ;
+  background-repeat: no-repeat;
+}
+
+    .post {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .post__content {
+      width: 60%;
+      padding: 6% 4% 7%;
+
+    }
+
+    .container-img-slider {
+      width: 40%;
+      padding: 2%;
+    }
+    .slider-img {
+      width: 100%;
+    }
+    .team-img {
+      width: 110%;
+    }
+    .post__text {
+      font-weight: 300;
+      color: #8492A6;
+      font: 18px 'Ubuntu', sans-serif;
+      line-height: 36px;
+    }
+    .post__text_list {
+      font-weight: 300;
+      color: #8492A6;
+      font: 18px 'Ubuntu', sans-serif;
+      line-height: 36px;
+      list-style: none;
+      position: relative;
+
+    }
+    .post__text_list::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 6px;
+      left: -23px;
+      background-image: url("../img/light-bulb (1).png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .post__header {
+      overflow: hidden;
+      color: #1485CC;
+      font: 24px 'Ubuntu', sans-serif;
+      margin-bottom: 20px;
+    }
+    .slide-about-us .post__text {
+      line-height: 18px;
+    }
+
+    .slick-dots li button {
+      font-size: 18px;
+    }
+    .slick-dots li button::before {
+      font-size: 18px;
+
+    }
+    .slick-dots {
+      position: absolute;
+      bottom: 38px;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+      left: -47px;
+    }
+    .our_name {
+      font: 16px 'Ubuntu', sans-serif;
+      color: #1485CC;
+    }
+    .send-info-about-us {
+      width: 165px;
+      height: 35px;
+      background-color: #1485CC;
+      color: #F2F2F2;
+      font-size: 16px;
+      outline: none;
+      display: block;
+      margin: 10px;
+    }
+    .send-info-about-us:active:hover {
+      background-color: #1485CC;
+    }
+    .btn:active:hover {
+      background-color: #1485CC;
+    }
+    .contact-us {
+      color: #1485CC;
+    }
+  }
+  @media screen and (max-width:768px){
+    .post{
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    .slide-about-us .post__text {
+      font: 14px 'Ubuntu', sans-serif;
+      line-height: 18px;
+    }
+    .post__content{
+      padding:4%
+    }
+    .post__header{
+      font: 18px 'Ubuntu', sans-serif;
+    }
+    .slider-main-page .post__content {
+      width: 100%;
+    }
+    .slide1{
+      line-height: 18px;
+    }
+    .slider1 .slider-img{
+      width: 100%;
+    }
+    .container-img-slider{
+      width: 33%;
+    }
+    .slider-main-page .post__text,.slider-main-page.post__text_list{
+      font-weight: 300;
+      color: #8492A6;
+      font: 14px 'Ubuntu', sans-serif;
+      line-height: 28px;
+    }
+
+    .slider-main-page .slick-dots {
+      left:-22px;
+    }
+    .slider-main-page .post__content {
+      padding: 0 6% 10%;
+    }
+
+  }
+//For small screen static block
+.for-small-screen{
+  display: none;
+}
+.about-us-smallscreen{
+  padding:20px;
+  .post__content{
+    margin-left: 10px;
+  }
+  .our_name {
+    font: 16px 'Ubuntu', sans-serif;
+    color: #1485CC;
+  }
+  .post__header{
+    font: 16px 'Ubuntu', sans-serif;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color:#1485CC;
+
+  }
+  .post__text,.post__text_list{
+    font: 16px 'Ubuntu', sans-serif;
+    line-height: 24px;
+    margin: 0;
+    position: relative;
+    color: #8492A6;
+    padding: 0;
+
+  }
+  .post__text_list{
+    line-height: 24px;
+    list-style: none;
+  }
+  .post__text_list::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:0px;
+    left: -20px;
+    background-image: url("../img/light-bulb (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .send-info-about-us{
+    width: 150px;
+    height: 35px;
+    background-color:#1485CC;
+    color:#F2F2F2;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+  }
+  .send-info-about-us:hover{
+    background-color:#1485CC;
+  }
+  .post__offer{
+    text-align: center;
+    color:#1485CC;
+  }
+
+}
+
+.about-us-smallscreen .post__header:nth-child(1)::before{
+  content: "";
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-image: url("../img/64-1-01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  opacity: 0.8;
+}
+@media screen and (max-width: 360px){
+  .post__text,.post__text_list{
+    font: 12px 'Ubuntu', sans-serif;
+    line-height: 22px;
+  }
+  .about-us-smallscreen .post__text, .about-us-smallscreen .post__text_list {
+    font: 11px 'Ubuntu', sans-serif;
+    line-height: 19px;
+    margin: 0;
+    position: relative;
+    color: #8492A6;
+    padding: 1%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us-smallscreen .post__text, .about-us-smallscreen .post__text_list {
+    text-align: center;
+  }
+}
+.post__text .contact-us{
+  font-weight: 300;
+  color:#1485CC;
+  font: 16px 'Ubuntu', sans-serif;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
